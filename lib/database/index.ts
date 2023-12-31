@@ -16,7 +16,7 @@ export const connectToDatabase = async () => {
   cached.promise =
     cached.promise ||
     mongoose.connect(MONGODB_URL, {
-      dbName: 'eventlive',
+      dbName: 'event-live-cluster0',
       bufferCommands: false,
     });
 
